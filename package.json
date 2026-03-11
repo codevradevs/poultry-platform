@@ -1,0 +1,11 @@
+{
+  "name": "poultry-platform",
+  "version": "1.0.0",
+  "description": "Poultry farm e-commerce platform",
+  "scripts": {
+    "install-backend": "cd backend && npm install",
+    "start": "cd backend && node server.js",
+    "dev": "cd backend && npm run dev",
+    "seed": "cd backend && npm run seed"
+  }
+}
