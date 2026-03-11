@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import FloatingContact from './components/FloatingContact'
 import Home from './pages/Home'
 import Products from './pages/Products'
 import BulkOrders from './pages/BulkOrders'
@@ -34,6 +35,7 @@ function App() {
                 </Routes>
               </main>
               <Footer />
+              <FloatingContact />
             </>
           } />
         </Routes>
